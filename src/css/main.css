@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Khula&family=Monofett&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Khula", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.main-container {
+  min-height: 100vh;
+  margin: 0 5rem;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.main-container .home {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container .home .landing-content {
+  height: 90vh;
+  width: 50%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main-container .home .landing-content .first {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.main-container .home .landing-content .second {
+  font-size: 4rem;
+  font-weight: bolder;
+}
+.main-container .home .landing-content .second span {
+  font-size: 4.5rem;
+  font-family: "Monofett", monospace;
+}
+
+.main-container .home .landing-content .third {
+  font-family: "Monofett", monospace;
+  font-size: 3rem;
+  margin: 2rem 0;
+}
+
+.main-container .home .landing-content .describe-me {
+  text-align: justify;
+}
+
+.main-container .home .landing-content .about {
+  height: 3vh;
+  width: 7vw;
+  margin: 2rem 0;
+  padding: 0 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 7px;
+  border: none;
+  outline: none;
+  background-color: #f5b32f;
+  cursor: pointer;
+}
+
+.main-container .home .landing-content .about:hover {
+  background-color: #000000;
+  color: #f5b32f;
+  transition: ease-in-out 0.2s;
+}
+.main-container .home .dev-activity {
+  height: 50vh;
+  width: 60vw;
+}
+
+aside {
+  position: relative;
+  height: 25vh;
+  width: 3vw;
+  border: 1px solid black;
+  top: 20rem;
+}
