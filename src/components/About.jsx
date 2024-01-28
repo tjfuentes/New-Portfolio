@@ -7,7 +7,7 @@ const About = () => (
       {Links.map((link) => (
         <h3
           key={link.id}
-          className="text-[30px] font-medium hover:text-[#ffffff] hover:cursor-pointer"
+          className="text-[30px] font-medium hover:text-[#ffffff] hover:cursor-pointer active:text-[#ffffff]"
         >
           {link.title}
         </h3>
