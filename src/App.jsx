@@ -5,7 +5,7 @@ import "./css/main.css";
 function App() {
   return (
     <>
-      <main className="flex mx-[10rem] my-[2rem] flex-col space-y-[2rem]">
+      <main className="flex mx-[20rem] my-[2rem] flex-col space-y-[2rem] ">
         <div>
           <Home />
         </div>
